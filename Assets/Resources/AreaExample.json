@@ -1,0 +1,60 @@
+{
+  "countingAreaName": "test area 1",
+  "cameraName": "cam 01",
+  "areaGPS": [
+    "35.5, 106.9",
+    "lat, long",
+    "lat, long",
+    "lat, long",
+    "lat, long",
+    "lat, long"
+  ],
+  "platformLevel": 1,
+  "peopleSimulationInfo": [
+    {
+      "id": 10,
+      "positionsOverTime": [
+        {
+          "position": "x,y,z",
+          "Time": "2020-05-01 12:05:00",
+          "operation": "instantiated"
+        },
+        {
+          "position": "x,y,z",
+          "Time": "2020-05-01 12:08:00",
+          "operation": "moved"
+        },
+        {
+          "position": "x,y,z",
+          "Time": "2020-05-01 12:10:00",
+          "operation": "deleted"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "positionsOverTime": [
+        {
+          "position": "x,y,z",
+          "Time": "2020-05-01 12:15:00",
+          "operation": "instantiated"
+        },
+        {
+          "position": "x,y,z",
+          "Time": "2020-05-01 12:18:00",
+          "operation": "moved"
+        },
+        {
+          "position": "x,y,z",
+          "Time": "2020-05-01 12:20:00",
+          "operation": "moved"
+        },
+        {
+          "position": "x,y,z",
+          "Time": "2020-05-01 12:24:00",
+          "operation": "deleted"
+        }
+      ]
+    }
+  ]
+}

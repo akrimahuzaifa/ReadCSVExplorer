@@ -750,6 +750,8 @@ GameObject:
   - component: {fileID: 1943573998}
   - component: {fileID: 1943573997}
   - component: {fileID: 1943573999}
+  - component: {fileID: 1943574000}
+  - component: {fileID: 1943574001}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -829,3 +831,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExcelPath: 
+--- !u!114 &1943574000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943573995}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a358bc8439005014e856e7fbcfa71dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1943574001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943573995}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a71e7f3ece423f4a8b75cd4737bb87b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
