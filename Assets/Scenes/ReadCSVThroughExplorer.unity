@@ -207,8 +207,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1943573999}
-        m_TargetAssemblyTypeName: ReadCSV, Assembly-CSharp
+      - m_Target: {fileID: 1943574002}
+        m_TargetAssemblyTypeName: ManyJsonFileExplorer, Assembly-CSharp
         m_MethodName: ExcelFileBrowseOption
         m_Mode: 1
         m_Arguments:
@@ -749,9 +749,8 @@ GameObject:
   - component: {fileID: 1943573996}
   - component: {fileID: 1943573998}
   - component: {fileID: 1943573997}
-  - component: {fileID: 1943573999}
-  - component: {fileID: 1943574000}
-  - component: {fileID: 1943574001}
+  - component: {fileID: 1943574002}
+  - component: {fileID: 1943574003}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -818,7 +817,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943573995}
   m_CullTransparentMesh: 1
---- !u!114 &1943573999
+--- !u!114 &1943574002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943573995}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33806d5d32929a64d916bf5383dbf35a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JsonPath: 
+--- !u!114 &1943574003
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -827,31 +839,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1943573995}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9015ae5509d52104aaf6dad9b7b36e52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ExcelPath: 
---- !u!114 &1943574000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1943573995}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a358bc8439005014e856e7fbcfa71dd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1943574001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1943573995}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a71e7f3ece423f4a8b75cd4737bb87b, type: 3}
+  m_Script: {fileID: 11500000, guid: 65d71c21145f3484eb7c7cbed71c1ddf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
